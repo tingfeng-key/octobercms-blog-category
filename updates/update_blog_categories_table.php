@@ -1,5 +1,6 @@
 <?php
-namespace Tingfeng\BlogCategory\Updates;
+namespace TingFeng\BlogCategory\Updates;
+
 use October\Rain\Database\Schema\Blueprint;
 use October\Rain\Database\Updates\Migration;
 use October\Rain\Support\Facades\Schema;

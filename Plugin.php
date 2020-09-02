@@ -1,6 +1,6 @@
 <?php
 
-namespace Tingfeng\BlogCategory;
+namespace TingFeng\BlogCategory;
 
 use RainLab\Blog\Controllers\Categories;
 use System\Classes\PluginBase;
@@ -16,7 +16,7 @@ class Plugin extends PluginBase
         return [
             'name' => 'BlogCategory',
             'description' => "Blog Category Seo",
-            'author' => "Tingfeng",
+            'author' => "TingFeng",
             'icon' => 'icon-leaf'
         ];
     }
