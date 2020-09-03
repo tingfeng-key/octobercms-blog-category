@@ -9,8 +9,6 @@ class Plugin extends PluginBase
 {
     public $require = ['RainLab.Blog'];
 
-    public $disabled = false;
-
     public function pluginDetails()
     {
         return [
@@ -29,13 +27,13 @@ class Plugin extends PluginBase
             }
 
             $widget->addFields([
-                "title" => [
+                "tingfeng_category_title" => [
                     "label" => "标题",
                     "placeholder" => "输入标题",
                     "span" => "left",
                     "type" => "mltext",
                   ],
-                "keywords" => [
+                "tingfeng_category_keywords" => [
                     "label" => "关键字",
                     "placeholder" => "输入关键字",
                     "span" => "right",
