@@ -28,14 +28,14 @@ class Plugin extends PluginBase
 
             $widget->addFields([
                 "tingfeng_category_title" => [
-                    "label" => "标题",
-                    "placeholder" => "输入标题",
+                    "label" => "tingfeng.blogcategory::lang.title_label",
+                    "placeholder" => "tingfeng.blogcategory::lang.title_placeholder",
                     "span" => "left",
                     "type" => "mltext",
                   ],
                 "tingfeng_category_keywords" => [
-                    "label" => "关键字",
-                    "placeholder" => "输入关键字",
+                    "label" => "tingfeng.blogcategory::lang.keywords_label",
+                    "placeholder" => "tingfeng.blogcategory::lang.keywords_placeholder",
                     "span" => "right",
                     "type" => "mltext",
                 ]
