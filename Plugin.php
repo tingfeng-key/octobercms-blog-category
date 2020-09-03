@@ -27,13 +27,13 @@ class Plugin extends PluginBase
             }
 
             $widget->addFields([
-                "tingfeng_category_title" => [
+                "tingfeng_blogcategory_title" => [
                     "label" => "tingfeng.blogcategory::lang.title_label",
                     "placeholder" => "tingfeng.blogcategory::lang.title_placeholder",
                     "span" => "left",
                     "type" => "mltext",
                   ],
-                "tingfeng_category_keywords" => [
+                "tingfeng_blogcategory_keywords" => [
                     "label" => "tingfeng.blogcategory::lang.keywords_label",
                     "placeholder" => "tingfeng.blogcategory::lang.keywords_placeholder",
                     "span" => "right",
