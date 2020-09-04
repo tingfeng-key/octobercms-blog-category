@@ -31,13 +31,13 @@ class Plugin extends PluginBase
                     "label" => "tingfeng.blogcategory::lang.title_label",
                     "placeholder" => "tingfeng.blogcategory::lang.title_placeholder",
                     "span" => "left",
-                    "type" => "mltext",
+                    "type" => "text",
                   ],
                 "tingfeng_blogcategory_keywords" => [
                     "label" => "tingfeng.blogcategory::lang.keywords_label",
                     "placeholder" => "tingfeng.blogcategory::lang.keywords_placeholder",
                     "span" => "right",
-                    "type" => "mltext",
+                    "type" => "text",
                 ]
             ]);
         });

@@ -4,3 +4,5 @@
 1.0.1:
     - fix table colums prefix
     - fix category form
+1.0.2:
+    - fix form error
